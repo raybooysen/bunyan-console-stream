@@ -1,0 +1,13 @@
+{
+  "name": "bunyan-console-stream",
+  "version": "1.0.0",
+  "repository": "https://github.com/raybooysen/bunyan-console-stream",
+  "description": "A console stream that logs structured fields to the console",
+  "main": "index.js",
+  "author": "Ray Booysen <ray@sumatro.co.uk>",
+  "license": "MIT",
+  "typings": "./index.d.ts",
+  "dependencies": {
+    "string-template": "^1.0.0"
+  }
+}
