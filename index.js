@@ -4,7 +4,7 @@ const createConsoleStream = (writeStructuredDate) => {
     return {
         write: logData => {
             const templatedMessage = format(logData.msg, logData);
-            if (writeStructuredDate && logData.logData) {
+            if (writeStructuredDate) {
                 const {msg, ...rest} = logData;
                 console.log(templatedMessage, ...rest);
             } else {
