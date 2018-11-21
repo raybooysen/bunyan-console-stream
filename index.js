@@ -3,9 +3,9 @@ const format = require('string-template');
 const createConsoleStream = (writeStructuredDate) => {
     return {
         write: logData => {
-            const templatedMessage = format(logData.msg, logData);
+            const {msg, ...rest} = logData;
+            const templatedMessage = format(msg, rest);
             if (writeStructuredDate) {
-                const {msg, ...rest} = logData;
                 console.log(templatedMessage, ...rest);
             } else {
                 console.log(templatedMessage);
