@@ -6,7 +6,7 @@ const createConsoleStream = (writeStructuredDate) => {
             const {msg, ...rest} = logData;
             const templatedMessage = format(msg, rest);
             if (writeStructuredDate) {
-                console.log(templatedMessage, ...rest);
+                console.log(templatedMessage, {...rest});
             } else {
                 console.log(templatedMessage);
             }

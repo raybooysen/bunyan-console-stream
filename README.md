@@ -12,7 +12,7 @@ Normally with back-end logging stores like Seq, the interpolation in this token 
 # Usage with Bunyan
 
 ```
-import { createConsoleStream } from './index';
+import { createConsoleStream } from 'bunyan-structured-console-stream';
 
 const options = {
     name: 'LoggerName',
