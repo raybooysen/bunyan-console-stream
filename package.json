@@ -1,6 +1,6 @@
 {
   "name": "bunyan-structured-console-stream",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/raybooysen/bunyan-structured-console-stream",
   "description": "A console stream that logs structured fields to the console",
   "main": "index.js",
