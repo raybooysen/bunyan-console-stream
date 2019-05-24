@@ -14,4 +14,4 @@ const createConsoleStream = (writeStructuredDate) => {
     }
 }
 
-export {createConsoleStream};
+module.exports = { createConsoleStream };
