@@ -1,4 +1,4 @@
-declare const createConsoleStream: (writeStructuredDate: any) => {
+declare const createConsoleStream: (writeStructuredData: any) => {
     write: (logData: any) => void;
 };
 export { createConsoleStream };
